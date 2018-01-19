@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+    cursor: pointer;
+}
+td:hover{
+	border: 1px solid grey;
+}
+.live{
+	background-color: green;
+}
+.dead{
+	background-color: grey;
+}

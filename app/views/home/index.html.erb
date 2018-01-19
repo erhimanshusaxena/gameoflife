@@ -1,0 +1,18 @@
+<div class="container">
+	<h1>Game Of Life</h1>
+	<div class="row">
+		<p>Select the dead cell inside the matrix, and press start.</p><br> 
+		<button id="start">Start</button>
+	</div><br>
+	<div class="row">
+		<table>
+			<% 50.times.each do |i| %>
+				<tr>
+					<% 50.times.each do |j| %>
+				    	<td style="width: 35px; height: 20px;" class="live" id="<%= "#{i}-#{j}" %>">&nbsp;</td>
+				    <% end %>
+				</tr>
+			<% end %>
+		</table>
+	</div>
+</div>
